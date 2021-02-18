@@ -11,7 +11,6 @@ const main = async () => {
     throw new Error(`Could not get chain id: ${err}`);
   });
 
-
   const height = await web3.eth.getBlockNumber().catch((err) => {
     throw new Error(`Could not get block height: ${err}`);
   });

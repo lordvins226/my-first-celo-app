@@ -17,7 +17,6 @@ const main = async () => {
 
   console.log("ChainId:", chainId);
   console.log("Block height:", height);
-
   console.log("Successfully connected to Celo Network");
 };
 
